@@ -18,9 +18,9 @@ import java.util.ArrayList;
 public class controleDadosDeJogos {
 
     String dbdriver = "com.mysql.cj.jdbc.Driver";
-    String dburl = "jdbc:mysql://localhost:3306/trabalho2JDBC?useSSL=false&useTimezone=true&serverTimezone=UTC";
-    String dbusuario = "root";
-    String dbsenha = "root";
+    String dburl = "";
+    String dbusuario = "";
+    String dbsenha = "";
     Connection con;
     int bloqueioAltID = 0;
     String bloqueioAltNome = "NotValidStringCriadaComMaisDe32Caracteres";
